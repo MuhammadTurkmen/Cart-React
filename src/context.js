@@ -8,7 +8,7 @@ const AppContext = React.createContext()
 
 const initialState = {
   loading: false,
-  cart: []
+  cart: [] 
 }
 
 const AppProvider = ({ children }) => {
