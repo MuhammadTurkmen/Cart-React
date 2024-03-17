@@ -8,7 +8,9 @@ const AppContext = React.createContext()
 
 const initialState = {
   loading: false,
-  cart: [] 
+  cart: cartItems,
+  total: 0,
+  amount
 }
 
 const AppProvider = ({ children }) => {
