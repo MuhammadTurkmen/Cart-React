@@ -24,6 +24,7 @@ const AppProvider = ({ children }) => {
     <AppContext.Provider
       value={{
         ...state,
+        clearCart,
       }} 
     >
       {children}
