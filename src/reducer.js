@@ -62,7 +62,7 @@ const reducer = (state, action) => {
                     return {...cartItem, amount: cartItem.amount + 1}
                 }
                 if(action.payload.type === 'dec') {
-
+                    return {...cartItem, amount: cartItem.amount - 1}
                 }
                 
             }
