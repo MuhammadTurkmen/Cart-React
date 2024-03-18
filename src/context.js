@@ -19,6 +19,10 @@ const AppProvider = ({ children }) => {
   const clearCart = () => {
     dispatch({type:'CLEAR_CART'})
   } 
+
+  const remove = (id) => {
+    
+  }
   
   return (
     <AppContext.Provider
