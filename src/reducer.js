@@ -23,7 +23,7 @@ const reducer = (state, action) => {
                 return {...cartItem, amount: cartItem.amount - 1}
             }
             return cartItem
-        })
+        }).filter(()=> )
         return {...state, cart: tepmCart}
     }
 
