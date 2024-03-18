@@ -35,7 +35,8 @@ const AppProvider = ({ children }) => {
 
   const fetchData = async () => {
     dispatch({type: 'LOADING'})
-
+    const response = await fetch(url)
+    const cart = response.json()
   }
   
   useEffect(() => {
