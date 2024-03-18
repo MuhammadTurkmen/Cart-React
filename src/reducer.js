@@ -59,9 +59,9 @@ const reducer = (state, action) => {
         let tempCart = state.cart.map((cartItem) => {
             if(cartItem.id === action.payload.id) {
                 if(action.payload.type === 'inc') {
-
+                    return {...cartItem, amount: cartItem.amount + 1}
                 }
-                if(action.payload.type === 'inc') {
+                if(action.payload.type === 'dec') {
 
                 }
                 
