@@ -28,6 +28,11 @@ const reducer = (state, action) => {
     }
 
 
+    if(action.type === 'GET_TOTALS') {
+        
+    }
+
+
     return state
 }
 
