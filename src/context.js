@@ -39,6 +39,7 @@ const AppProvider = ({ children }) => {
         clearCart,
         remove,
         increase,
+        decrease,
       }} 
     >
       {children}
