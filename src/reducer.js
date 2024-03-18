@@ -7,6 +7,10 @@ const reducer = (state, action) => {
         return {...state, cart: state.cart.filter((cartItem) => cartItem.id !== action.payload)}
     }
 
+    if(action.type === 'INCREASE') {
+        
+    }
+
     return state
 }
 
