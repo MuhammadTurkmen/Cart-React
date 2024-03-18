@@ -33,8 +33,9 @@ const AppProvider = ({ children }) => {
   }
   
 
-  const fetchData = () => {
-    
+  const fetchData = async () => {
+    dispatch({type: 'LOADING'})
+
   }
   
   useEffect(() => {
