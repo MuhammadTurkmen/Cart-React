@@ -8,7 +8,9 @@ const reducer = (state, action) => {
     }
 
     if(action.type === 'INCREASE') {
-        let tepmCart = []
+        let tepmCart = state.cart.map((cartItem) => {
+
+        })
         return {...state, cart: tepmCart}
     }
 
