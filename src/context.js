@@ -24,6 +24,10 @@ const AppProvider = ({ children }) => {
     dispatch({type:'REMOVE', payload:id})
   }
   
+  const increase = (id) => {
+    dispatch({type: 'INCREASE', payload: id})
+  }
+
   return (
     <AppContext.Provider
       value={{
