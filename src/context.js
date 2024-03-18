@@ -34,6 +34,7 @@ const AppProvider = ({ children }) => {
         ...state,
         clearCart,
         remove,
+        increase,
       }} 
     >
       {children}
