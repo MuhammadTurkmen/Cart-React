@@ -47,6 +47,10 @@ const reducer = (state, action) => {
         return {...state, total, amount}
     }
 
+    if(action.type === 'LOADING') {
+        
+    }
+    
 
     return state
 }
