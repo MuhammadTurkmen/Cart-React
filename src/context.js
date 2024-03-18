@@ -41,7 +41,7 @@ const AppProvider = ({ children }) => {
   }
   
   useEffect(() => {
-
+    fetchData()
   },[])
 
   useEffect(() => {
