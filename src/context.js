@@ -61,6 +61,7 @@ const AppProvider = ({ children }) => {
         remove,
         increase,
         decrease,
+        toggleAmount,
       }} 
     >
       {children}
